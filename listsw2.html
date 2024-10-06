@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lists</title>
+    <style type="text/css" media="screen">
+
+        #container
+            {width: 50%;
+            margin: 0 auto;
+            }
+
+        ol,
+        ul  {border: 1px solid #ccc;
+            width: 90%;
+            padding: 1.4em 0;
+            }
+
+        ol li,
+        ul li   {background-color: #ccc;
+            margin-left: 20%;
+            }
+
+        ol li span.list-head,
+        ul li span.list-head
+            {background-color: #ffa;
+            float: left;
+            display: block;
+            width: 6em;
+            }
+
+        dl  {border: 1px solid #ccc;
+            line-height: 1.4em;
+            padding: 1.4em 0 0 0;
+            }
+
+        dl dt   {background-color: #ffa;
+            display: block;
+            margin: 0;
+            width: 10%;
+            }
+
+        dl dd   {background-color: #fc0;
+            display: block;
+            margin: 0;
+            width: 88%;
+            margin-left: 11%;
+            position: relative;
+            top: -1.4em;
+            }       
+
+    </style>
+</head>
+<body>
+...
+    <div id="container">
+
+        <ol>
+
+            <li><span class="list-head">Foo:</span> bar.</li>
+
+            <li><span class="list-head">Bar:</span> baz.</li>
+
+            <li><span class="list-head">Baz:</span> foo.</li>
+
+        </ol>
+
+        <ul>
+
+            <li><span class="list-head">Foo:</span> bar.</li>
+
+            <li><span class="list-head">Bar:</span> baz.</li>
+
+            <li><span class="list-head">Baz:</span> foo.</li>
+
+        </ul>
+
+        <dl>
+
+            <dt>Foo:</dt>
+            <dd>bar.</dd>
+
+            <dt>Bar:</dt>
+            <dd>baz.</dd>
+
+            <dt>Baz:</dt>
+            <dd>foo.</dd>
+
+        </dl>
+
+    </div>
+</body>
+</html>
